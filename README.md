@@ -1,56 +1,48 @@
-🛒 Ecommerce Website
+# 🛒 Ecommerce Website  
 
-A full-stack E-commerce web application built with the MERN stack (MongoDB, Express, React, Node.js).
-This project includes user authentication, product management, cart system, orders, and admin panel with role-based access.
+A full-stack **E-commerce web application** built with the **MERN stack (MongoDB, Express, React, Node.js)**.  
+This project includes **user authentication, product management, cart system, orders, and admin panel** with role-based access.  
 
-✨ Features
-🔹 User Features
+---
 
-👤 Register and login with JWT authentication
+## ✨ Features  
 
-🛍️ Browse products with images, prices, and details
+### 🔹 User Features  
+- 👤 Register and login with JWT authentication  
+- 🛍️ Browse products with images, prices, and details  
+- 🛒 Add, update, or remove products from cart  
+- 📦 Place orders securely  
+- 🔑 Persist login using JWT tokens  
 
-🛒 Add, update, or remove products from cart
+### 🔹 Admin Features  
+- 🛠️ Add new products  
+- ✏️ Edit product details  
+- ❌ Delete products  
+- 🔐 Only accessible to admin users  
 
-📦 Place orders securely
+---
 
-🔑 Persist login using JWT tokens
+## 🛠️ Tech Stack  
 
-🔹 Admin Features
+### **Frontend**  
+- ⚛️ React + Vite  
+- 🎨 React-Bootstrap  
+- 🔄 Axios  
 
-🛠️ Add new products
+### **Backend**  
+- 🟢 Node.js  
+- ⚡ Express.js  
+- 🛡️ JWT Authentication  
+- 🔑 bcryptjs for password hashing  
 
-✏️ Edit product details
+### **Database**  
+- 🍃 MongoDB (Mongoose ODM)  
 
-❌ Delete products
+---
 
-🔐 Only accessible to admin users
+## 📂 Project Structure  
 
-🛠️ Tech Stack
-Frontend
-
-⚛️ React + Vite
-
-🎨 React-Bootstrap
-
-🔄 Axios
-
-Backend
-
-🟢 Node.js
-
-⚡ Express.js
-
-🛡️ JWT Authentication
-
-🔑 bcryptjs for password hashing
-
-Database
-
-🍃 MongoDB (Mongoose ODM)
-
-📂 Project Structure
-
+```
 ecommerce-website/
 │── backend/
 │   ├── config/         # DB connection
@@ -69,47 +61,77 @@ ecommerce-website/
 │
 │── .env                # Environment variables
 │── README.md           # Project documentation
+```
 
-⚙️ Installation
+---
 
-Clone the repository
+## ⚙️ Installation  
+
+1. **Clone the repository**  
+```bash
 git clone https://github.com/your-username/Ecommerce-Website.git
 cd Ecommerce-Website
+```
 
-Setup Backend
+2. **Setup Backend**  
+```bash
 cd backend
 npm install
+```
 
-Setup Frontend
+3. **Setup Frontend**  
+```bash
 cd ../frontend
 npm install
+```
 
-🚀 Running the Project
+---
 
-Start backend server:
+## 🚀 Running the Project  
+
+1. Start **backend server**:  
+```bash
 cd backend
 npm run dev
-Backend runs on http://localhost:5000
+```
+Backend runs on [http://localhost:5000](http://localhost:5000)
 
-Start frontend:
+2. Start **frontend**:  
+```bash
 cd frontend
 npm run dev
-Frontend runs on http://localhost:5173
+```
+Frontend runs on [http://localhost:5173](http://localhost:5173)
 
-📸 Screenshots
+---
 
-(Add later if you want: Home page, Cart, Admin Panel, etc.)
+## 🔑 Admin Credentials  
 
-📌 Future Improvements
+When you first set up, create an **admin user**:  
+```bash
+node backend/createAdmin.js
+```
 
-✅ Payment gateway integration (Stripe / Razorpay)
+Default:  
+- **Email:** `admin@example.com`  
+- **Password:** `Admin@123`  
 
-✅ Product categories & filters
+---
 
-✅ Wishlist feature
+## 📸 Screenshots  
 
-✅ Order history for users
+(Add later if you want: Home page, Cart, Admin Panel, etc.)  
 
-👨‍💻 Author
+---
 
-Developed by Kartikey Gautam ✨
+## 📌 Future Improvements  
+- ✅ Payment gateway integration (Stripe / Razorpay)  
+- ✅ Product categories & filters  
+- ✅ Wishlist feature  
+- ✅ Order history for users  
+
+---
+
+## 👨‍💻 Author  
+
+Developed by **Kartikey Gautam** ✨  
